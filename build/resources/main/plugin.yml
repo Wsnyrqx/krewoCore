@@ -1,0 +1,15 @@
+name: KrewoCore
+version: 1.0
+main: org.krewoCore.KrewoCore
+api-version: 1.21
+depend: [Vault]
+commands:
+  fly:
+    description: Toggles flight mode
+    usage: /fly
+  pay:
+    description: Send money to another player
+    usage: /pay <player> <amount>
+  bal:
+    description: Check your balance or another player's balance
+    usage: /bal [player]

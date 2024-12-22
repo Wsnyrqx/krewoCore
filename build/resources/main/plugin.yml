@@ -13,3 +13,8 @@ commands:
   bal:
     description: Check your balance or another player's balance
     usage: /bal [player]
+
+  setSpawn:
+    description: Set the spawn location
+    usage: /setspawn
+    permission: Operator

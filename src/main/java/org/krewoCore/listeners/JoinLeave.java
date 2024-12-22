@@ -12,7 +12,7 @@ public class JoinLeave implements Listener {
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent event) {
         String playerName = event.getPlayer().getName();
-        event.setJoinMessage("§a[+] "+playerName);
+        event.setJoinMessage("§a[+] §9"+playerName);
     }
 
     @EventHandler
